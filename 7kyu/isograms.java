@@ -16,7 +16,7 @@ public class isogram {
         int len = str.length();
       
         char arr[] = str.toCharArray();
-        // Sorting the array by descending ASCII
+        // Sorting the array by ascending ASCII
         Arrays.sort(arr);
         for (int i = 0; i < len - 1; i++) {
             // If some letter is equal to the next means is not isogram
